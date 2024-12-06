@@ -1,0 +1,69 @@
+﻿@VacatureApis_HostAddress = http://localhost:5074
+
+GET {{VacatureApis_HostAddress}}/allbedrijven
+
+###
+
+GET {{VacatureApis_HostAddress}}/allvacatures
+
+###
+
+POST {{VacatureApis_HostAddress}}/addvacature
+Content-Type: application/json
+
+{
+    "Id":"42",
+  "Titel":"General Manager",
+  "Omschrijving":"Someone to boss around."
+}
+
+###
+
+POST {{VacatureApis_HostAddress}}/addbedrijf
+Content-Type: application/json
+
+{
+  "Id":12,
+  "Naam":"De Gruiter",
+  "Adres":"Zaandam"
+}
+
+###
+
+POST {{VacatureApis_HostAddress}}/addvacature
+Content-Type: application/json
+{
+    "Id":"41",
+  "Titel":"Vakkenvuller",
+  "Omschrijving":"Zaterdaghulp.",
+  "BedrijfId":12
+}
+
+###
+
+DELETE {{VacatureApis_HostAddress}}/deletevacature/41
+
+###
+
+POST {{VacatureApis_HostAddress}}/updatebedrijf
+Content-Type: application/json
+{
+  "Id":12,
+  "Naam":"De Greuter",
+  "Adres":"Zaandijk"
+}
+
+###
+
+DELETE {{VacatureApis_HostAddress}}/deletebedrijf/12
+
+###
+
+POST {{VacatureApis_HostAddress}}/updatevacature
+Content-Type: application/json
+{
+    "Id":"41",
+  "Titel":"Zakkenvuller",
+  "Omschrijving":"Zaterdaghulp."
+}
+###
