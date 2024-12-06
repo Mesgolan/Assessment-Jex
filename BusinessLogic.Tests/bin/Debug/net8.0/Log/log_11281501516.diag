@@ -1,0 +1,16 @@
+2024-11-28T15:15:01.5308345+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Version: 1.4.0+49599419d351132489cacfed32968dcb4fc1b84a
+2024-11-28T15:15:01.5482593+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Logging mode: asynchronous
+2024-11-28T15:15:01.5500205+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Logging level: Information
+2024-11-28T15:15:01.5500311+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION CreateBuilderAsync entry time: 15:15:01.485
+2024-11-28T15:15:01.5530703+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION PID: 3800
+2024-11-28T15:15:01.5533852+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Runtime information: win-x64 - .NET 8.0.10
+2024-11-28T15:15:01.5533998+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Runtime location: C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.10\System.Private.CoreLib.dll
+2024-11-28T15:15:01.5535132+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION IsDynamicCodeSupported: True
+2024-11-28T15:15:01.5535323+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Test module: D:\Jex\JexAssessment\BusinessLogic.Tests\bin\Debug\net8.0\BusinessLogic.Tests.dll
+2024-11-28T15:15:01.5541637+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Command line arguments: '--server --diagnostic --diagnostic-verbosity Information --diagnostic-output-directory D:\Jex\JexAssessment\BusinessLogic.Tests\bin\Debug\net8.0\Log --results-directory D:\Jex\JexAssessment\TestResults --client-port 57983'
+2024-11-28T15:15:01.5560720+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION TESTINGPLATFORM_DEFAULT_HANG_TIMEOUT: ''
+2024-11-28T15:15:01.5900963+00:00 Microsoft.Testing.Platform.Hosts.TestHostBuilder INFORMATION Setting RegisterEnvironmentVariablesConfigurationSource: 'True'
+2024-11-28T15:15:01.5947867+00:00 Microsoft.Testing.Platform.Configurations.JsonConfigurationSource+JsonConfigurationProvider INFORMATION Config file 'D:\Jex\JexAssessment\BusinessLogic.Tests\bin\Debug\net8.0\BusinessLogic.Tests.testconfig.json' not found.
+2024-11-28T15:15:01.5964596+00:00 Microsoft.Testing.Platform.Hosts.TestHostBuilder INFORMATION Setting PlatformExitProcessOnUnhandledException: 'False', config file: False environment variable:  VSTest mode: False
+2024-11-28T15:15:01.7887995+00:00 Microsoft.Testing.Platform.Requests.TestHostTestFrameworkInvoker INFORMATION Test framework UID: 'MSTest.Sdk' Version: '3.6.0' DisplayName: 'MSTest' Description: 'MSTest Framework for Microsoft Testing Platform'
+2024-11-28T15:15:01.8090011+00:00 Microsoft.Testing.Extensions.VSTestBridge.ObjectModel.MessageLoggerAdapter WARNING Runsettings attribute 'MaxCpuCount' is not supported by Microsoft.Testing.Platform and will be ignored
